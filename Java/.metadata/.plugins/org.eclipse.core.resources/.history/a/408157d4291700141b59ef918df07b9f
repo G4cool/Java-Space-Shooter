@@ -1,0 +1,52 @@
+import java.util.Random;
+
+import javax.swing.JOptionPane;
+
+public class mainMethod {
+
+	public static void main(String[] args) {
+		Animal AlphaF =new Animal("Wolf","Alpha","Gray",4,40,3000,500);
+		Animal AlphaM =new Animal("Wolf","Alpha","Gray",4,40,3000,500);
+		Animal wolf2 =new Animal("Wolf","Wolf","Gray",4,40,3000,500);
+		Animal wolf1 =new Animal("Wolf","Wolf","Gray",4,40,3000,500);
+		Random Gen =new Random();
+		int moose = 10000;
+		int Y = 0;
+		while(Y == 0){
+			System.out.println("There is a wolf Pack of 4");
+			Y = JOptionPane.showConfirmDialog(null, "There is a moose \nShould the wolf pack  chase it?", "Hunt", JOptionPane.YES_NO_OPTION);
+			if(Y == 0){
+				int x = Gen.nextInt(40);
+				AlphaF.travel(x);
+				AlphaM.travel(x);
+				wolf1.travel(x);
+				wolf2.travel(x);
+				x = Gen.nextInt(4);
+				switch(x){
+				case 0:
+					AlphaF.eat(x/4);
+					AlphaM.eat(x/4);
+					wolf1.eat(x/4);
+					wolf2.eat(x/4);
+					break;
+				case 1:
+					AlphaF.eat(x/4);
+					AlphaM.eat(x/4);
+					wolf1.eat(x/4);
+					wolf2.eat(x/4);
+					break;
+				case 2:
+					AlphaF.eat(x/4);
+					AlphaM.eat(x/4);
+					wolf1.eat(x/4);
+					wolf2.eat(x/4);
+					break;
+				default:
+				}
+				System.out.println("each wolf has Gained " + (AlphaM.caloriesFromFood - AlphaM.caloriesBurned) + " Calories");
+				Y = JOptionPane.showConfirmDialog(null, "Would you like to keep playing?", "Continue", JOptionPane.YES_NO_OPTION);
+			}
+		}
+	}
+
+}

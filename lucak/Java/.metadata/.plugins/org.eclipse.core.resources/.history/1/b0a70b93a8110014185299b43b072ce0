@@ -1,0 +1,12 @@
+import javax.swing.JOptionPane;
+
+public class RunInputDialogs {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		name = JOptionPane.showInputDialog ("Enter your name");
+		
+	}
+
+}

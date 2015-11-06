@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class VendingMachine {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+			Scanner input = new Scanner( System.in );
+		
+			double money;
+			double change;
+			double cost;
+			int choice;
+			
+			System.out.println("Hello I am a vending machine.");
+			
+			System.out.println("\nPress 1 for Candy, 2 for Soda, 3 for Ketchup");
+			
+			choice = input.nextInt();
+		
+			switch (choice){
+				case 1:
+			
+					cost = 2.50;
+					System.out.println("Candy costs $2.50, please enter your money");
+					
+					
+					if (money ==  cost)
+					{
+						
+					} else if (money < cost) {
+						
+					} else if (money > cost) {
+						
+					}
+					break;
+					
+			}
+			
+	}
+
+}

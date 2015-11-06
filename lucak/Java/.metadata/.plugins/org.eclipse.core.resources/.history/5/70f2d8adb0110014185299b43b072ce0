@@ -1,0 +1,17 @@
+
+public class RunArraysActual {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			String names[] = new String[7];
+			
+			names[0] = "Peter";
+			names[1] = "Jane";
+			names[2] = "Ben";
+			
+			System.out.println(names[0]);
+		
+	}
+
+}

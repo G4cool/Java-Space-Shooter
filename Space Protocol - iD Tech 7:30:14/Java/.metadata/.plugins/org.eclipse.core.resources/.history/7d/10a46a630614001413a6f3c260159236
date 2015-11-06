@@ -1,0 +1,10 @@
+
+public class Air extends Vehicle{
+
+	int wings;
+	
+	public Air (String t, String sT, String c, int m, int g, int gM, int tS, int wi){
+		super(t, sT, c, m, g, gM, tS);
+	}
+	
+}

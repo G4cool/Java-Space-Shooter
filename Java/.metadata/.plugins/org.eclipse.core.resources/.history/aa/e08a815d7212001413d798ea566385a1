@@ -1,0 +1,23 @@
+import java.util.Random;
+
+public class RunRandomSentenceGenerator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			Random rand  = new Random();
+			String sentences[] = new String[3];
+			
+			String sent1 = "Hello.";
+			String sent2 = "Goodbye.";
+			String sent3 = "I'm awesome.";
+			
+			sent1 = sentences[0];
+			sent2 = sentences[1];
+			sent3 = sentences[2];
+			
+			
+		
+	}
+
+}

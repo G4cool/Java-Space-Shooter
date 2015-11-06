@@ -1,0 +1,18 @@
+
+public class RunArraysActual {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String names[] = new String[7];
+		Scanner input = new Scanner (System.in);
+		 
+		for (int index = 0; index < names.length; index++){
+		    System.out.println("Enter name number " + (index + 1) + ": ");
+		    names[index] = input.next();
+		}
+		input.close();
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class calc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			Scanner scan = new Scanner(System.in);
+			System.out.println("Put in a first number.");
+			int num1 = scan.nextInt();
+			System.out.println("Put in a second number.");
+			int num2 = scan.nextInt();
+			// int z = num1 + num2;
+			// System.out.println("The sum of your two numbers is "+z+".");
+			
+	}
+
+}

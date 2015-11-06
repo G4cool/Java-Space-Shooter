@@ -1,0 +1,14 @@
+
+public class Water extends Vehicle{
+
+	public Water (String t, String sT, String c, int m, int g, int gM, int tS){
+		super(t);
+		super(sT);
+		super(c);
+		super(m);
+		super(g);
+		super(gM);
+		super(tS);
+	}
+	
+}

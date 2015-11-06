@@ -1,0 +1,28 @@
+import javax.swing.JOptionPane;
+
+import java.util.Scanner;
+
+public class VirtualCarEngine {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Car myCar = new Car();
+		 
+		print("My car name is a " + myCar.name);
+        print("My car is a " + myCar.type);
+        print("My car's color is " + myCar.color);
+        
+        JOptionPane.showMessageDialog(null, "Calories before running: " + myPet.calories);
+        
+        myPet.run();
+         
+        JOptionPane.showMessageDialog(null, "Calories after running: " + myPet.calories);
+         
+        myPet.eat(800);
+         
+        JOptionPane.showMessageDialog(null, "Calories after eating: " + myPet.calories);
+		
+	}
+
+}

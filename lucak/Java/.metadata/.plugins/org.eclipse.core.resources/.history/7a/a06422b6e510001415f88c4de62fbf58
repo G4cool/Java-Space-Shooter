@@ -1,0 +1,20 @@
+
+public class helloworld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			System.out.println("Hello, World!");
+			System.out.println("I also like trains.");
+			// Random comments.
+			// Do comments to help remember stuff or something like that.
+			// Note to self: comments are cool.
+			// Program made by Luca K.
+			/*Multi-
+			 * line
+			 * comment.
+			 * Yay!
+			 */
+			System.out.println("A comment is coming after this."); // This comment is on a line of code.
+	}
+
+}

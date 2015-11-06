@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class calc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			Scanner scan = new Scanner(System.in);
+			System.out.println("Put in a first number.");
+			int num1 = scan.nextInt();
+			System.out.println("Put in a second number.");
+			int num2 = scan.nextInt();
+			System.out.println("What operation would you like to use?  Multiplication, division, addition, or subtraction?  Put in either m, d, a, or s for the operations, respectively.");
+			scan.nextLine();
+			String operator = scan.nextLine();
+			if (operator.equals("m")){
+				int result = num1 * num2;
+				System.out.println("The product of your two numbers is "+result+".");
+			}else if (operator == "d"){
+				int result = num1 / num2;
+				System.out.println("The quotient of your two numbers is "+result+".");
+			}else if (operator == "a"){
+				int result = num1 + num2;
+				System.out.println("The sum of your two numbers is "+result+".");
+			}else if (operator == "s"){
+				int result = num1 - num2;
+				System.out.println("The result of your two numbers is "+result+".");
+			}
+			// int z = num1 + num2;
+			// System.out.println("The sum of your two numbers is "+z+".");
+			
+	}
+
+}

@@ -1,0 +1,13 @@
+﻿Build started 7/28/2014 1:39:25 PM.
+     1>Project "C:\Users\student\Desktop\Luca K-Monday, Jul 21\C++\test\test\test.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\test.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Test2.cpp test.cpp
+         test.cpp
+         Test2.cpp
+     1>c:\users\student\desktop\luca k-monday, jul 21\c++\test\test\test2.cpp(1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+         Generating Code...
+     1>Done Building Project "C:\Users\student\Desktop\Luca K-Monday, Jul 21\C++\test\test\test.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.45

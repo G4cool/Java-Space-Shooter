@@ -1,0 +1,11 @@
+
+public class Land extends Vehicle{
+	
+	int wheels;
+	
+	public Land (String t, String sT, String c, int m, int g, int gM, int tS, int w){
+		super(t, sT, c, m, g, gM, tS);
+		
+	}
+	
+}

@@ -1,0 +1,22 @@
+
+public class Vehicle {
+
+	String type;
+	String specType;
+	String color;
+	int miles;
+	int gas;
+	int gasMileage;
+	int topSpeed;
+	
+	public Vehicle (String t, String sT, String c, int m, int g, int gM, int tS){
+		type = t;
+		specType = sT;
+		color = c;
+		miles = m;
+		gas = g;
+		gasMileage = gM;
+		topSpeed = tS;
+	}
+	
+}

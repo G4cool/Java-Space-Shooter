@@ -1,0 +1,8 @@
+
+public class Air {
+
+	public Water (String t, String sT, String c, int m, int g, int gM, int tS){
+		super(t, sT, c, m, g, gM, tS);
+	}
+	
+}

@@ -1,0 +1,13 @@
+import java.util.Random;
+
+public class RunRandomChance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			Random generator = new Random();
+			int var1 = generator.nextInt();
+		
+	}
+
+}

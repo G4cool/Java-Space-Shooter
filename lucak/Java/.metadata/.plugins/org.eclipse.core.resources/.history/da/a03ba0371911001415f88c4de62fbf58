@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+public class RunFibonacciSequence {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			Scanner scan = new Scanner(System.in);
+			
+			System.out.println("How many numbers in the Fibonacci Sequence would you like me to print?");
+			int answer = scan.nextInt();
+			int number = answer + 1;
+			
+			int num1 = 0;
+			int num2 = 1;
+			int num3 = 1;
+			int num4 = 2;
+			int num5 = 3;
+			int num6 = 5;
+			int y = 1;
+			
+			//for (int num = 0; num < number; num++){
+				if (answer == 0){
+					System.out.println("");
+				} else if (answer == 1){
+					System.out.println(num1);
+				} else if (answer == 2){
+					System.out.println(num1);
+					System.out.println(num2);
+				} else if (answer == 3){
+					System.out.println(num1);
+					System.out.println(num2);
+					System.out.println(num3);
+				} else if (answer > 3){
+					System.out.println(num1);
+					System.out.println(num2);
+					System.out.println(num3);
+					for (int num = 4; num < number; num++){
+						int num1 = num2 + num3;
+						
+					}
+				}
+				else{
+					System.out.println("Sorry, this is not a valid option.");
+				}
+			//}
+		
+	}
+
+}

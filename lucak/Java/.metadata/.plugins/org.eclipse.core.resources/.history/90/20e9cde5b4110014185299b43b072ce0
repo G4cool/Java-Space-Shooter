@@ -1,0 +1,26 @@
+import java.util.Random;
+
+public class DnDCharacter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			Random generator = new Random();
+			String name = "Yolo";
+			
+			int str = generator.nextInt(20) + 1;
+			int dex = generator.nextInt(20) + 1;
+			int intel = generator.nextInt(20) + 1;
+			int wis = generator.nextInt(20) + 1;
+			int vit = generator.nextInt(20) + 1;
+			
+			System.out.println("The mighty " + name + " has the following character stats.");
+			System.out.println(str + " Strength");
+			System.out.println(dex + " Dexterity");
+			System.out.println(intel + " Intelligence");
+			System.out.println(wis + " Wisdom");
+			System.out.println(vit + " Vitality");
+		
+	}
+
+}

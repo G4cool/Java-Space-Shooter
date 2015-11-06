@@ -1,0 +1,8 @@
+
+public class Car extends Land{
+
+	public Car (String com, String n, String col, int m, int g, int gM, int tS, int wh, String poH, String poT){
+		super(com, n, col, m, g, gM, tS, wh, poH, poT);
+	}
+	
+}

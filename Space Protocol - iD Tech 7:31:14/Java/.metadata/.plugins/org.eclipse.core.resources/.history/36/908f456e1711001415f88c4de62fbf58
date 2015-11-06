@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class RunFibonacciSequence {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			Scanner scan = new Scanner(System.in);
+			
+			System.out.println("How many numbers in the Fibonacci Sequence would you like me to print?");
+			int answer = scan.nextInt();
+			int number = answer + 1;
+			
+			int x = 0;
+			int y = 1;
+			
+			do{
+				
+			} while (y < number);
+		
+	}
+
+}

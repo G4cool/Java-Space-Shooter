@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class VendingMachine {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+			Scanner input = new Scanner( System.in );
+		
+			double money;
+			double change;
+			double cost;
+			int choice;
+			
+			System.out.println("Hello I am a vending machine.");
+			
+			System.out.println("\nPress 1 for Candy, 2 for Soda, 3 for Ketchup");
+			
+			choice = input.nextInt();
+		
+	}
+
+}

@@ -1,0 +1,47 @@
+import java.util.concurrent.TimeUnit;
+
+
+
+public class SpaceProtocolMethodsandStuff {
+
+	/*
+	public String name;
+    public String type;
+    public String color;
+    public int calories;
+    public int health;
+ 
+    Pet(){
+        name = "Spike";
+        type = "dog";
+        color = "black";
+        calories = 3000;
+    }
+    
+    public void run(){
+        calories = calories - 50;
+    }
+     
+    public void eat(int a){
+        calories = calories + a;
+    }
+    
+    public void fight1(){
+        health = health - 10;
+    }
+    */
+    
+	public static void sleep (int s){
+    	try {
+    		TimeUnit.SECONDS.sleep(s);
+		} catch(InterruptedException ex) {
+    		Thread.currentThread().interrupt();
+    	}
+    }
+	
+	public static void print (String text) {
+        System.out.println(text);
+    }
+	
+}
+

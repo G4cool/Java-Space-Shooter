@@ -1,0 +1,24 @@
+
+public class RunFoo {
+	static int x = 2;
+	
+	public static void foo_1(){
+	    x = 5;
+	    foo_2();
+	    System.out.println("x in foo_1 = " + x);
+	}
+	 
+	public static void foo_2(){
+	    x = 10;
+	    System.out.println("X in foo_2 = " +x);
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		foo_1();
+		foo_2();
+			
+	}
+
+}

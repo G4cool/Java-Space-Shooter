@@ -1,0 +1,21 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class RunSpaceProtocol {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			Scanner scan = new Scanner (System.in);
+			String response;
+			
+			do {
+				
+				System.out.println("Would you like to play again?  Enter y for yes and n for no.");
+				response = scan.nextLine();
+				
+			} while (response.equals("yes"));
+		
+	}
+
+}

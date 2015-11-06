@@ -1,0 +1,32 @@
+
+public class Animal {
+
+	String type;
+	String name;
+	String color;
+	int age;
+	int topSpeed;
+	int calories;
+	int caloriesPerHour;
+	int distanceTraveling;
+	int timeToTravel;
+	int caloriesBurned;
+	
+	public Animal (String t, String n, String co, int a, int tS, int ca, int cPH){
+		type = t;
+		name = n;
+		color = co;
+		age = a;
+		topSpeed = tS;
+		calories = ca;
+		caloriesPerHour = cPH;
+	}
+	
+	public void travel (int dT){
+		distanceTraveling = dT;
+		timeToTravel = distanceTraveling / topSpeed;
+		caloriesBurned = timeToTravel * caloriesPerHour;
+		System.out.println("Your " + type + name + " took " + timeToTravel + " to travel " + distanceTraveling + ", and you");
+	}
+	
+}

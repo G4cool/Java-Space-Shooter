@@ -1,0 +1,20 @@
+import java.util.Random;
+
+public class RunRandomSentenceGenerator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			Random rand  = new Random();
+			String sentences[] = new String[3];
+			
+			"Hello." = sentences[0];
+			"Goodbye." = sentences[1];
+			sent3 = sentences[2];
+			
+			int randomNum = rand.nextInt(3);
+			System.out.println(sentences[randomNum]);
+		
+	}
+
+}

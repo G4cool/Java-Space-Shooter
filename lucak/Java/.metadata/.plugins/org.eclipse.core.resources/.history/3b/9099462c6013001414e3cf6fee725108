@@ -1,0 +1,98 @@
+//import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
+
+public class space {
+
+	/*
+	public String name;
+    public String type;
+    public String color;
+    public int calories;
+    public int health;
+ 
+    Pet(){
+        name = "Spike";
+        type = "dog";
+        color = "black";
+        calories = 3000;
+    }
+    
+    public void run(){
+        calories = calories - 50;
+    }
+     
+    public void eat(int a){
+        calories = calories + a;
+    }
+    
+    public void fight1(){
+        health = health - 10;
+    }
+    */
+    
+	public static void sleep (int s){
+    	try {
+    		TimeUnit.SECONDS.sleep(s);
+		} catch(InterruptedException ex) {
+    		Thread.currentThread().interrupt();
+    	}
+    }
+	
+	public static void print (String text) {
+        System.out.println(text);
+    }
+	
+	public static void fight1 (){
+		if (ans1.equals("y")){
+			heaEn = heaEn - damage;
+			if (heaEn <= 0){
+				xp = xp + 50;
+				space.print("You have defeated your first enemy and gained 50 xp!");
+				if (xp >= 50){
+					stringLevel = "Level 2";
+					intLevel = 2;
+					System.out.println("You are now " + stringLevel + "!");
+				}
+			} else if (heaEn > 0){
+				double damageDone = heaEn;
+				space.print("You have done " + damage + " damage to the enemy ship!");
+				health = health - damEn;
+				if (health <= 0){
+					space.print("The enemy ship has defeated you.");
+				} else if (health > 0){
+					double damDone = health;
+					space.print("The enemy ship has done " + damEn + " damage to your ship.");
+					do {
+						heaEn = heaEn - damage;
+						if (heaEn <= 0){
+							xp = xp + 50;
+							space.print("You have defeated your first enemy and gained 50 xp!");
+							if (xp >= 50){
+								stringLevel = "Level 2";
+								intLevel = 2;
+								space.print("You are now " + stringLevel + "!");
+							}
+						} else if (heaEn > 0){
+							damageDone = heaEn;
+							space.print("You have done " + damage + " damage to the enemy ship!");
+							health = health - damEn;
+							if (health <= 0){
+								space.print("The enemy ship has defeated you.");
+							} else if (health > 0){
+								damDone = health;
+								space.print("The enemy ship has done " + damEn + " damage to your ship.");
+							}
+						}
+					} while (heaEn > 0 || health > 0);							}
+			}
+		} else if (ans1.equals("n")){
+			if (topSpeed > topEn){
+				space.print("You have avoided the enemy ship.");
+			} else if (topSpeed <= topEn){
+				space.print("You were not able to avoid the enemy ship, and in the proccess you have been destroyed.");
+				// Add part about looping back to fighting because just dying is kinda unfair or weird or whatever.
+			}
+	}
+	}
+	
+}

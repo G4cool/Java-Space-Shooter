@@ -1,0 +1,15 @@
+
+public class VirtualPetEngine {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			Pet myPet = new Pet();
+			
+			myPet.name = "Spike";
+	        myPet.type = "Dog";
+	        myPet.color = "black";
+		
+	}
+
+}

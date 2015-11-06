@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class RunArrayProject {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			String names[] = new String[10];
+			Scanner scan = new Scanner (System.in);
+			int num = 0;
+			
+			do{
+				
+			} while (num < 11);
+			
+		
+	}
+
+}

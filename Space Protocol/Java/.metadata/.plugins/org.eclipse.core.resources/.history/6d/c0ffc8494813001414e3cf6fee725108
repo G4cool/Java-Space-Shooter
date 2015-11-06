@@ -1,0 +1,31 @@
+
+
+public class SpaceProtocolMethodsandStuff {
+
+	public String name;
+    public String type;
+    public String color;
+    public int calories;
+    public int health;
+ 
+    Pet(){
+        name = "Spike";
+        type = "dog";
+        color = "black";
+        calories = 3000;
+    }
+    
+    public void run(){
+        calories = calories - 50;
+    }
+     
+    public void eat(int a){
+        calories = calories + a;
+    }
+    
+    public void fight1(){
+        health = health - 10;
+    }
+	
+}
+

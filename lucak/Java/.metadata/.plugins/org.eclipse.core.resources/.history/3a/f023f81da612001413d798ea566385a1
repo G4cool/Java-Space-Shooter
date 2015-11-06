@@ -1,0 +1,35 @@
+
+public class Car {
+
+	public String name;
+    public String type;
+    //public String spefType;
+    public String color;
+    public double gas;
+    public int miles;
+    public int gasMilage;
+	
+	public static void print (String text) {
+        System.out.println(text);
+    }
+	
+	Car(){
+        name = "BMW i8 Roadster";
+        type = "coupe";
+        //spefType = "coupe";
+        color = "black";
+        gas = 5000;
+        miles = 0;
+        gasMilage = 20;
+    }
+    
+    public void drive(int distance){
+        miles = miles + distance;
+        gas = gas - distance * 0.5;
+    }
+     
+    public void refuel(double refAmount){
+        gas = gas + refAmount;
+    }
+	
+}

@@ -1,0 +1,47 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class RunRandomNumberGame {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			Random rand = new Random();
+			Scanner scan = new Scanner (System.in);
+			
+			do {
+				
+				int score = 0;
+				int right = 0;
+				int wrong = 0;
+				
+				System.out.println("How many times would you like to play?");
+				int numTimes = scan.nextInt();
+				
+				for (int index = 0; index < numTimes; index++){
+					
+					int randomNum = rand.nextInt(10) + 1;
+					
+					System.out.println("Enter a number between 1 and 10.");
+					int numAnswer = scan.nextInt();
+					
+					if (numAnswer == randomNum){
+						score += 1;
+						right += 1;
+						System.out.println("You got it right!  The number was " + randomNum + ".  Your score is now " + score + ".");
+					} else if (numAnswer != randomNum){
+						wrong += 1;
+						System.out.println("You got it wrong.  The number was " + randomNum + ".  Your score is still " + score + ".");
+					}
+
+				}
+				
+				System.out.println("You have completed the game!  You were right " + right + " times, wrong " + wrong + " times, and your final score was " + score + ".");
+				System.out.println("Would you like to play again? Type y for yes and n for no.");
+				char response = scan.nextChar();
+				
+			} while (response.equals());
+		
+	}
+
+}

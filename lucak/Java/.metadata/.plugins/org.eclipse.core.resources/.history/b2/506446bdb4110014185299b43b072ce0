@@ -1,0 +1,13 @@
+import java.util.Random;
+
+public class DnDCharacter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			Random generator = new Random();
+			String name = "Yolo";
+		
+	}
+
+}

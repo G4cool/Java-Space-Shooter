@@ -1,0 +1,8 @@
+
+public class Recursion {
+	
+	public static int counting (int counter){
+		
+	}
+
+}

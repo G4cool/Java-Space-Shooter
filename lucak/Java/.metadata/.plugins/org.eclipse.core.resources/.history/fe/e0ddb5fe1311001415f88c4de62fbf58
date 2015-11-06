@@ -1,0 +1,13 @@
+
+public class RunForLoops {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			for (int index = 10; index < 0; index--){
+				System.out.println(index);
+			}
+		
+	}
+
+}

@@ -1,0 +1,30 @@
+
+public class Car {
+
+	public String name;
+    public String type;
+    public String spefType;
+    public String color;
+    public int gas;
+    public int miles;
+	
+	public static void print (String text) {
+        System.out.println(text);
+    }
+	
+	Car(){
+        name = "BMW i8 Roadster";
+        type = "car";
+        color = "black";
+        calories = 3000;
+    }
+    
+    public void run(){
+        calories = calories - 50;
+    }
+     
+    public void eat(int a){
+        calories = calories + a;
+    }
+	
+}

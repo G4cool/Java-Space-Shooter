@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class RunArrayProject {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			String names[] = new String[10];
+			Scanner scan = new Scanner (System.in);
+			int num = 0;
+			int num2 = 1;
+			
+			System.out.println("What type of thing would you like to enter into your list");
+			String type = scan.nextLine();
+			
+			System.out.println("How many names would you like to put into the list?");
+			String number = scan.nextLine();
+			
+			do{
+				System.out.println("Enter name " + num2 + ".");
+				names[num] = scan.next();
+				num++;
+				num2++;
+			} while (num < 10);
+			
+			for (index = 0; index < names.length; index++){
+				
+			}
+			
+		
+	}
+
+}

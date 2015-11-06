@@ -1,0 +1,18 @@
+import javax.swing.JOptionPane;
+
+public class RunInputDialogs {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String name;
+		
+		name = JOptionPane.showInputDialog ("Enter your name");
+		
+		int number1;
+		
+		number1 = Integer.parseInt (JOptionPane.showInputDialog("Enter number 1"));
+		
+	}
+
+}

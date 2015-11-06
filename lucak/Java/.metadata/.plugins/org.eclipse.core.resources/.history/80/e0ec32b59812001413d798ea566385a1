@@ -1,0 +1,14 @@
+
+public class Car {
+
+	public String name;
+    public String type;
+    public String color;
+    public int calories;
+	
+	public static void print (String text) {
+		 
+        System.out.println(text);
+    }
+	
+}

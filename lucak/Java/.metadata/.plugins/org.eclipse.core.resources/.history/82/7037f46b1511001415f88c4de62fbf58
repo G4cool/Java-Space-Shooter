@@ -1,0 +1,24 @@
+
+public abstract class RunFizzBuzzActual {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			int x = 1;
+		
+			do{
+				
+				int y = x%3;
+				int z = x%5;
+				
+				if (){
+					
+				}
+				
+				x = x + 1;
+				
+			} while (x < 101);
+		
+	}
+
+}

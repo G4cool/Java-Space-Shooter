@@ -1,0 +1,11 @@
+
+public class Plane extends Air{
+
+	public Plane (String com, String n, String col, int m, int g, int gM, int tS, int mo, String moT){
+		super(com, n, col, m, g, gM, tS, wi, en, enT);
+		wings = wi;
+		engines = en;
+		engineType = enT;
+	}
+	
+}

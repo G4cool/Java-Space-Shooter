@@ -1,0 +1,56 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class RunSpaceProtocol {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			Scanner scan = new Scanner (System.in);
+			String response;
+			
+			do {
+				
+				String characterName;
+				String shipName;
+				String shipType;
+				int attack;
+				int defense;
+				int speed;
+				int damage;
+				int health;
+				int topSpeed;
+				
+				System.out.println("What would you like to name your character?");
+				characterName = scan.nextLine();
+				
+				System.out.println("Ok, " + characterName + ".  What would you like to name your spaceship?");
+				shipName = scan.nextLine();
+				
+				System.out.println("What class would you like your ship to be?  Attacking, defensive, or fast?  Enter a for attacking, d for defensive, and f for fast.");
+				System.out.println("Attacking: Attack: 75  Defense: 25  Speed: 50");
+				System.out.println("Defensive: Attack: 25  Defense: 75  Speed: 50");
+				System.out.println("Fast: Attack: 25  Defense: 50  Speed: 75");
+				shipType = scan.nextLine();
+				
+				if (shipType.equals("a")){
+					attack = 75;
+					defense = 25;
+					speed = 50;
+					damage = attack * 1.5;
+					System.out.println("These are " + shipName + "'s stats: Attack: 75  Defense: 25  Speed: 50");
+					System.out.println();
+				} else if (shipType.equals("d")){
+					System.out.println("These are " + shipName + "'s stats: Attack: 25  Defense: 75  Speed: 50");
+				} else if (shipType.equals("f")){
+					System.out.println("These are " + shipName + "'s stats: Attack: 25  Defense: 50  Speed: 75");
+				}
+				
+				System.out.println("Would you like to play again?  Enter y for yes and n for no.");
+				response = scan.nextLine();
+				
+			} while (response.equals("yes"));
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class Animal {
+
+	String type;
+	String name;
+	int age;
+	
+	public Animal (String t, String n, int age){
+		
+	}
+	
+}

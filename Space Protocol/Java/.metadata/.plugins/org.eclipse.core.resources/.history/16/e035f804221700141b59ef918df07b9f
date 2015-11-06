@@ -1,0 +1,20 @@
+
+public class Animal {
+
+	String type;
+	String name;
+	String color;
+	int age;
+	int topSpeed;
+	int calories;
+	
+	public Animal (String t, String n, String co, int a, int tS, int ca){
+		type = t;
+		name = n;
+		color = co;
+		age = a;
+		topSpeed = tS;
+		calories = ca;
+	}
+	
+}

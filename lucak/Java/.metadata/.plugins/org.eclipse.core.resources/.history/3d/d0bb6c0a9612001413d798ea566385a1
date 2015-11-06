@@ -1,0 +1,14 @@
+
+public class Pet {
+
+	public String name;
+    public String type;
+    public String color;
+ 
+    Pet(){
+        name = "Spike";
+        type = "dog";
+        color = "black";
+    }
+	
+}

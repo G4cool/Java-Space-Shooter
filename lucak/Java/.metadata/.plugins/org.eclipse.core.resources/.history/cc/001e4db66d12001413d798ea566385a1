@@ -1,0 +1,28 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class RunRandomNumberGame {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			Random rand = new Random();
+			Scanner scan = new Scanner (System.in);
+			
+			do {
+				
+				System.out.println("How many times would you like to play?");
+				int numTimes = scan.nextInt();
+				
+				for (int index = 0; index < numTimes; index++){
+					
+					int randomNum = rand.nextInt(10) + 1;
+					
+					System.out.println("Enter a number between 1 and 10.");
+				}
+				
+			} while (respons.equals("y"));
+		
+	}
+
+}

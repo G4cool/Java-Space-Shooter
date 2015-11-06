@@ -1,0 +1,18 @@
+
+public class SimpleClass {
+
+	private static int number;
+    
+    public void setNumber (int n){  
+        number = n;
+    }//end void
+     
+    public int getNumber (){
+        return number;
+    }//end int
+     
+    public static void addNumbers (int x, int y) {  
+        number = x + y; 
+    }//end static
+	
+}

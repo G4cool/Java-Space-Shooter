@@ -1,0 +1,26 @@
+import java.util.Random;
+
+public class RunRandomNumberGenerator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			int num1 = 0;
+			
+			Random generator = new Random();
+			int random1 = generator.nextInt(11) + 1;
+			
+			do{
+		        System.out.println(var1);
+				num1++;
+			} while (0 < 10);
+	 
+	        System.out.println(var1);
+	        System.out.println(var2);
+	        System.out.println(var3);
+	        System.out.println(var4);
+	        System.out.println(var5);
+			
+	}
+
+}

@@ -1,0 +1,20 @@
+import javax.swing.JOptionPane;
+
+public class RunInputDialogs {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String firstNname;
+		String lastName;
+		int age;
+		
+		firstName = JOptionPane.showInputDialog("Enter your name");
+		lastName = JOptionPane.showInputDialog("Enter your last name");
+		age= Integer.parseInt (JOptionPane.showInputDialog("Enter your age"));
+		
+		JOptionPane.showMessageDialog(null, "Your name is " + name + ", and you are " + age + " years old.");
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+import javax.swing.JOptionPane;
+
+public class RunCasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			int universe_age;
+	        float universe_weight;
+	        
+	        universe_age = Integer.parseInt(JOptionPane.showInputDialog("Universe age:"));
+	 
+	        universe_weight = Float.parseFloat(JOptionPane.showInputDialog("Universe weight:"));
+	        
+	        
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class RunRunTest {
+
+	public static void sleep (int s){
+    	try {
+    		Thread.sleep(1000);
+		} catch(InterruptedException ex) {
+    		Thread.currentThread().interrupt();
+    	}
+    }
+	
+}

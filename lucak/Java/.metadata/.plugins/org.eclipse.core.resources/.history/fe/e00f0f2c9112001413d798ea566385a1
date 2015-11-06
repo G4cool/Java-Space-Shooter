@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class RunMethods {
+
+	public static void sayHello() {
+		
+		System.out.println("Hello!");
+		
+	}
+	
+	public static void print (String text) {
+		
+		System.out.println(text);
+		
+	}
+	
+	public static int square (int x){
+        return (x * x);
+    }
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+			Scanner input = new Scanner (System.in);
+			int number;
+		
+			sayHello();
+			sayHello();
+			
+			print("Java says;");
+			sayHello();
+			
+			print ("Give a number: ");
+	        number = input.nextInt();
+	 
+	        print("The squared value of " + number + " is " + square(number));
+	 
+	        //Closer Scanner
+	        input.close();
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+
+public class RunSwitchingWithOthers {
+
+	String type;
+	String name;
+	
+	public RunSwitchingWithOthers (){
+		
+	}
+	
+}

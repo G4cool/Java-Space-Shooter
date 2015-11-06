@@ -1,0 +1,13 @@
+
+public class Land extends Vehicle{
+	
+	int wheels;
+	String powerHow; // Like engine or something else like that.
+	String powerType; // Like electricity or something else like that.
+	
+	public Land (String t, String sT, String c, int m, int g, int gM, int tS, int wh, String poH, String poT){
+		super(t, sT, c, m, g, gM, tS);
+		wheels = wh;
+	}
+	
+}

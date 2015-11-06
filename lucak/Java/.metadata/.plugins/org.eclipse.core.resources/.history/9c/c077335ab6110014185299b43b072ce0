@@ -1,0 +1,15 @@
+
+public class RunHelloWords {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			String phrase = "Hello iDTech";
+			
+			System.out.println(phrase);
+			
+			System.out.println("Number of characters phrase: " + phrase.length());
+		
+	}
+
+}

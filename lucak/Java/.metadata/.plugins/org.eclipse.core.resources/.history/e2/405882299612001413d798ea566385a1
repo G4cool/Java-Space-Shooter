@@ -1,0 +1,16 @@
+
+public class Pet {
+
+	public String name;
+    public String type;
+    public String color;
+    public int calories;
+ 
+    Pet(){
+        name = "Spike";
+        type = "dog";
+        color = "black";
+        calories = 3000;
+    }
+	
+}

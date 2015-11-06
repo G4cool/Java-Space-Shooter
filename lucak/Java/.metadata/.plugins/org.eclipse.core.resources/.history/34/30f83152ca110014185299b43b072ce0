@@ -1,0 +1,14 @@
+
+public class Factorial {
+	
+	public static int counting (int num1, int num2){
+		if (num1 >= 10000){
+			return num1;
+		}
+		else {
+			System.out.println(num1);
+			return counting(num2, num1 * (num1++)(num1));
+		}
+	}
+
+}

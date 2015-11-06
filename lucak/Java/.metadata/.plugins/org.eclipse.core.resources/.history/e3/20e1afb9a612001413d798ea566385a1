@@ -1,0 +1,42 @@
+import javax.swing.JOptionPane;
+
+import java.util.Scanner;
+
+public class VirtualCarEngine {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Car myCar = new Car();
+		Scanner scan = new Scanner (System.in);
+		 
+		System.out.println("Your car's name is a " + myCar.name + ".");
+		System.out.println("Your car is a " + myCar.type + ".");
+		System.out.println("Your car's color is " + myCar.color + ".");
+		System.out.println("Your car's gas milage is " + myCar.gasMilage + ".");
+		System.out.println("Your car's top speed is " + myCar.topSpeed + " mph.");
+        
+		System.out.println("Gas before driving: " + myCar.gas + ".");
+		System.out.println("Miles before driving: " + myCar.miles + ".");
+		
+		System.out.println("How many miles would you like your car to drive for?");
+		int distance = scan.nextInt();
+		
+		System.out.println("How fast would you like to drive. Remember, your car's top speed is 180 mph.");
+        
+        myCar.drive(distance);
+        
+        double time = distance/rate;
+         
+        System.out.println("Gas after driving: " + myCar.gas + ".");
+        System.out.println("Miles after driving " + myCar.miles + ".");
+        
+        System.out.println("It's now time to refuel your car.");
+         
+        myCar.refuel(distance * 0.5);
+         
+        System.out.println("Gas after refueling: " + myCar.gas + ".");
+		
+	}
+
+}

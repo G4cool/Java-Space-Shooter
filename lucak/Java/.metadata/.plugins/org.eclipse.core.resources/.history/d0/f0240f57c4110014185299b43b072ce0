@@ -1,0 +1,14 @@
+
+public class Recursion {
+	
+	public static int counting (int num){
+		if (num >= 100001){
+			return num;
+		}
+		else {
+			System.out.println(num);
+			return counting(num+num*num);
+		}
+	}
+
+}

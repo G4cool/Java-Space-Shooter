@@ -1,0 +1,20 @@
+
+public class RunHelloWords {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			String phrase = "Hello iDTech";
+			
+			System.out.println(phrase);
+			
+			System.out.println("Number of characters phrase: " + phrase.length());
+			System.out.println("First character: " + phrase.charAt(0));
+	        System.out.println("Last character: " + phrase.charAt(phrase.length() - 1));
+	        
+	        System.out.println("Substring of phrase: " + phrase.substring(0, 5));
+	        System.out.println("Substring of phrase: " + phrase.substring(6));
+		
+	}
+
+}

@@ -1,0 +1,100 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class RunSpaceProtocol {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			Scanner scan = new Scanner (System.in);
+			Random rand = new Random();
+			String response;
+			
+			do {
+				
+				String characterName;
+				String shipName;
+				String shipType;
+				int attack;
+				int defense;
+				int speed;
+				double damage;
+				double health;
+				double topSpeed;
+				int xp = 0;
+				int level = 0;
+				int level2 = 50;
+				int level3 = 100;
+				int level4 = 200;
+				int level5 = 400;
+				int level6 = 800;
+				int level7 = 1600;
+				int level8 = 3200;
+				int level9 = 6400;
+				int level10 = 128000;
+				
+				System.out.println("What would you like to name your character?");
+				characterName = scan.nextLine();
+				
+				System.out.println("Ok, " + characterName + ".  What would you like to name your spaceship?");
+				shipName = scan.nextLine();
+				
+				System.out.println("What class would you like your ship to be?  Attacking, defensive, or fast?  Enter a for attacking, d for defensive, and f for fast.");
+				System.out.println("Attacking: Attack: 75  Defense: 25  Speed: 50");
+				System.out.println("Defensive: Attack: 25  Defense: 75  Speed: 50");
+				System.out.println("Fast: Attack: 25  Defense: 50  Speed: 75");
+				shipType = scan.nextLine();
+				
+				if (shipType.equals("a")){
+					attack = 75;
+					defense = 25;
+					speed = 50;
+					damage = attack * 1.5;
+					health = defense * 1.5;
+					topSpeed = speed * 1.5;
+					System.out.println("These are " + shipName + "'s stats: Attack: 75  Defense: 25  Speed: 50");
+					System.out.println("Your ship " + shipName + " can deal " + damage + ", its health is " + health + ", and its top speed is " + topSpeed + ".");
+				} else if (shipType.equals("d")){
+					attack = 25;
+					defense = 75;
+					speed = 50;
+					damage = attack * 1.5;
+					health = defense * 1.5;
+					topSpeed = speed * 1.5;
+					System.out.println("These are " + shipName + "'s stats: Attack: 25  Defense: 75  Speed: 50");
+					System.out.println("Your ship " + shipName + " can deal " + damage + ", its health is " + health + ", and its top speed is " + topSpeed + ".");
+				} else if (shipType.equals("f")){
+					attack = 25;
+					defense = 50;
+					speed = 75;
+					damage = attack * 1.5;
+					health = defense * 1.5;
+					topSpeed = speed * 1.5;
+					System.out.println("These are " + shipName + "'s stats: Attack: 25  Defense: 50  Speed: 75");
+					System.out.println("Your ship " + shipName + " can deal " + damage + ", its health is " + health + ", and its top speed is " + topSpeed + ".");
+				}
+				
+				System.out.println("It is now time to go out into the universe and do stuff.");
+				
+				System.out.println("You have encountered an enemy ship?  Would you like to battle it?  Enter y for yes and n for no.");
+				String ans1 = scan.nextLine();
+				
+				if (ans1.equals("y")){
+					int attEn = rand.nextInt(101);
+					int defEn = rand.nextInt(101);
+					int speEn = rand.nextInt(101);
+					double damEn = attEn * 1.5;
+					double heaEn = ;
+					double topEn = ;
+				} else if (ans1.equals("n")){
+					
+				}
+				
+				System.out.println("Would you like to play again?  Enter y for yes and n for no.");
+				response = scan.nextLine();
+				
+			} while (response.equals("yes"));
+		
+	}
+
+}

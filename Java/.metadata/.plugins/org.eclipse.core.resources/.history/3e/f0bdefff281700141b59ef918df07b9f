@@ -1,0 +1,14 @@
+
+public class mainMethod {
+
+	public static void main(String[] args) {
+		Animal AlphaF =new Animal("Wolf","Alpha","Gray",4,40,3000,500);
+		Animal AlphaM =new Animal("Wolf","Alpha","Gray",4,40,3000,500);
+		Animal wolf2 =new Animal("Wolf","Wolf","Gray",4,40,3000,500);
+		Animal wolf1 =new Animal("Wolf","Wolf","Gray",4,40,3000,500);
+		
+		
+		
+	}
+
+}
